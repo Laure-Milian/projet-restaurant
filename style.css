@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-#header{
-	background-image: url(https://unsplash.it/200/300);
-}
 
-#contact {	
-=======
 /************************** Header *************************************************/
 
 header {
@@ -86,67 +80,48 @@ header .arrow a:hover {
 }
 
 
+/********Categories********/
 
+h2 {
+	color: #F08080;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#contact
-	 {	
->>>>>>> 0bcb92eaaceb344fa903450aa7678376431ab387
+#categories {
+	padding: 20px;
 	text-align: center;
-	border: solid black 1px;
-	margin-left: 30%;
-} 
+}
+
+#categories p {
+	width: 600px;
+	margin: 50px auto;
+}
+
+#categories a {
+	border: solid black 2px;
+	border-radius: 5px 5px;
+	width: 50px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#categories li {
+	display: inline-block;
+}
+
+.image1 {
+	margin: 100px;
+}
+
+.image2 {
+	margin-bottom: 100px;
+}
+
+#categories img {
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+}
+
+/*****Fin des categories****/
