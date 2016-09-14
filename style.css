@@ -82,21 +82,15 @@ header .arrow a:hover {
 
 /********Categories********/
 
-<<<<<<< HEAD
 h2 {
 	color: #F08080;
 }
-=======
-/*SERVICES
-*/
->>>>>>> 4ea1c7274d4de07bd08e92c6ef70473eda0f60c2
 
 #categories {
 	padding: 20px;
 	text-align: center;
 }
 
-<<<<<<< HEAD
 #categories p {
 	width: 600px;
 	margin: 50px auto;
@@ -131,7 +125,8 @@ h2 {
 }
 
 /*****Fin des categories****/
-=======
+
+/*****Services*****/
 #services { 
 	text-align: center; 
 	padding: 50px;
@@ -166,4 +161,5 @@ h2 {
 	position: relative;
 	top: 10px;
 }
->>>>>>> 4ea1c7274d4de07bd08e92c6ef70473eda0f60c2
+
+/*****Fin de services*****/
