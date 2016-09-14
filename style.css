@@ -176,21 +176,21 @@ header .arrow a:hover {
 
 
 footer {
-	padding: 20px;
-	
+	padding: 50px 50px 50px 150px;
+	margin-bottom: 50px
 }
 
-h2 {
+footer h2 {
 	font-weight: bolder;
 	text-align: center;
-
 }
-.textarea	{
+
+footer .textarea	{
 	margin-left: 100px;
 	width: 500px;
 }
 
-textarea {
+footer textarea {
 	display: flex;
 	flex-direction: column;
 	outline: 1px solid #B6B09F;
@@ -198,7 +198,7 @@ textarea {
 	margin-bottom: 30px;
 }
 
-.infos {
+footer .infos {
 	
 	width:500px;
 	display:flex;
@@ -206,12 +206,28 @@ textarea {
 	margin-left: 600px;
 	margin-top: -319px;
 }
-.icone {
+
+footer .icone {
 	display: inline-block;
 	margin-left: 600px;
 	margin-top: 50px;
 }
 
-.icone i {
+footer .icone i {
 	margin-right: 50px;
+}
+
+footer .button {
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px 20px;
+	background-color: #F7535D;
+}
+
+footer .button:hover {
+	text-decoration: none;
+	color: #F7535D;
+	padding: 10px 20px;
+	border: #F7535D 1px solid;
+	background-color: #FFF;
 }
