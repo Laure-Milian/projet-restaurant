@@ -1,3 +1,4 @@
+
 /************************** Header *************************************************/
 
 header {
@@ -79,91 +80,84 @@ header .arrow a:hover {
 }
 
 
+#services { 
+	text-align: center; 
+	padding: 50px;
+}
+
+.colone1 { 
+	display: inline-block ;
+	width: 300px;
+	margin: 20px;
+}
+
+#services h3 {
+	color : #F7535D;
+	font-size: 15px;
+} 
+
+#services {
+	background-color: #FAEBD7 ;
+}
+
+#services .ronds {
+	margin: 0 auto;
+	padding: 25px;
+	background-color: #F7535D;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#services i {
+	color: #FFF;
+	position: relative;
+	top: 10px;
+}
+
+
+
+
 
 footer {
-	margin-right: 350px;
-	margin-bottom: 50px;
-}
-h2 {
+	padding: 20px;
 	
-	font-weight: bolder;
 }
-textarea	{
+
+h2 {
+	font-weight: bolder;
+	text-align: center;
+
+}
+.textarea	{
+	margin-left: 100px;
+	width: 500px;
+}
+
+textarea {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
-	margin-right: 500px;
-	outline: 1px solid red;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	
-	}
- 
- .infos p {
-	margin-left: 400px;
-	
-	position: relative;
-	bottom: 50px;
+	outline: 1px solid #B6B09F;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#contact
-	 {	
-	text-align: center;
-	border: solid black 1px;
-	margin-left: 30%;
+.infos {
 	
-	} 
+	width:500px;
+	display:flex;
+	flex-direction: column;
+	margin-left: 600px;
+	margin-top: -319px;
+}
+.icone {
+	display: inline-block;
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+.icone i {
+	margin-right: 50px;
+}
