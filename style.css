@@ -82,15 +82,21 @@ header .arrow a:hover {
 
 /********Categories********/
 
+<<<<<<< HEAD
 h2 {
 	color: #F08080;
 }
+=======
+/*SERVICES
+*/
+>>>>>>> 4ea1c7274d4de07bd08e92c6ef70473eda0f60c2
 
 #categories {
 	padding: 20px;
 	text-align: center;
 }
 
+<<<<<<< HEAD
 #categories p {
 	width: 600px;
 	margin: 50px auto;
@@ -125,3 +131,39 @@ h2 {
 }
 
 /*****Fin des categories****/
+=======
+#services { 
+	text-align: center; 
+	padding: 50px;
+}
+
+.colone1 { 
+	display: inline-block ;
+	width: 300px;
+	margin: 20px;
+}
+
+#services h3 {
+	color : #F7535D;
+	font-size: 15px;
+} 
+
+#services {
+	background-color: #FAEBD7 ;
+}
+
+#services .ronds {
+	margin: 0 auto;
+	padding: 25px;
+	background-color: #F7535D;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#services i {
+	color: #FFF;
+	position: relative;
+	top: 10px;
+}
+>>>>>>> 4ea1c7274d4de07bd08e92c6ef70473eda0f60c2
