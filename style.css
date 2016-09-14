@@ -85,26 +85,37 @@ header .arrow a:hover {
 */
 
 
-#services { text-align: center; 
-
-
+#services { 
+	text-align: center; 
+	padding: 50px;
 }
 
-.colone1 { display: inline-block ;
-	      width: 350px;
-
-
+.colone1 { 
+	display: inline-block ;
+	width: 300px;
+	margin: 20px;
 }
 
-#services h3 { color : #DC143C;
-	            font-size: 15px;
-
-
+#services h3 {
+	color : #F7535D;
+	font-size: 15px;
 } 
 
 #services {
-
 	background-color: #FAEBD7 ;
-
 }
 
+#services .ronds {
+	margin: 0 auto;
+	padding: 25px;
+	background-color: #F7535D;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#services i {
+	color: #FFF;
+	position: relative;
+	top: 10px;
+}
