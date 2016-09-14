@@ -1,4 +1,8 @@
 
+h2 {
+	color: #F08080;
+}
+
 /************************** Header *************************************************/
 
 header {
@@ -19,6 +23,7 @@ header nav {
 header nav li {
 	display: inline-block;
 	margin: 0 20px;
+	font-size: 20px;
 }
 
 header nav li a {
@@ -28,6 +33,11 @@ header nav li a {
 
 header nav a:hover {
 	color: #F7535D;
+}
+
+header nav img {
+	position: relative;
+	top: 40px;
 }
 
 /******** Header centre *********/
@@ -48,7 +58,7 @@ header h3 {
 }
 
 header .button {
-	border: 1px solid #FFF;
+	border: 2px solid #FFF;
 	border-radius: 5px;
 	text-decoration: none;
 	padding: 10px;
@@ -80,27 +90,73 @@ header .arrow a:hover {
 }
 
 
-#services { 
+/**************************Categories***********************/
+
+
+.categories {
+	padding: 20px;
+	text-align: center;
+}
+
+.categories p {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.categories a {
+	border: solid black 2px;
+	border-radius: 5px 5px;
+	width: 50px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.categories li {
+	display: inline-block;
+}
+
+.image1 {
+	margin: 100px;
+}
+
+.image2 {
+	margin-bottom: 100px;
+}
+
+.categories img {
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+}
+
+/*****Fin des categories****/
+
+
+/*****Services*****/
+
+.services { 
 	text-align: center; 
 	padding: 50px;
 }
 
-.colone1 { 
+.colonne_services { 
 	display: inline-block ;
 	width: 300px;
 	margin: 20px;
 }
 
-#services h3 {
+.services h3 {
 	color : #F7535D;
 	font-size: 15px;
 } 
 
-#services {
+.services {
 	background-color: #FAEBD7 ;
 }
 
-#services .ronds {
+.services .ronds {
 	margin: 0 auto;
 	padding: 25px;
 	background-color: #F7535D;
@@ -109,14 +165,14 @@ header .arrow a:hover {
 	height: 100px;
 }
 
-#services i {
+.services i {
 	color: #FFF;
 	position: relative;
 	top: 10px;
 }
 
 
-
+/* footer */
 
 
 footer {
@@ -141,8 +197,6 @@ textarea {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
-
 
 .infos {
 	
